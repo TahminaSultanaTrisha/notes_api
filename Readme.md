@@ -1,31 +1,12 @@
-# 🗒️ Notes API
-
-A simple yet powerful **Flask REST API** for creating, reading, updating, and deleting notes — built using **Python** and **SQLite**.  
-
----
+# 🗒 Notes API
+A REST API built with Flask and SQLite to manage notes.
 
 ## 🚀 Features
+- Add, view, edit, and delete notes
+- JSON API with Python Flask
+- Data stored in SQLite database
 
-✅ Create, Read, Update, and Delete notes  
-✅ Built with Flask + SQLAlchemy  
-✅ Stores data locally in SQLite database  
-✅ JSON-based API  
-✅ Easy to deploy on Render / Railway / Replit  
-
----
-
-## 🧠 Technologies Used
-
-- Python 3
-- Flask
-- Flask SQLAlchemy
-- SQLite
-- JSON
-
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the Repository
-
-
+## ⚙ How to Run
+1. Install dependencies:
+   ```bash
+   pip install flask flask_sqlalchemy
